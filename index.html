@@ -32,22 +32,26 @@
     .bk1{
       background-clip: azure;
     }
-
-    button {
-      background-color: gray;
-      border: 1px solid black;
-      color: white;
-      cursor: pointer;
-      display: inline-block;
-      font-family: "proxima-nova", "Proxima Nova",
-      sans-serif;
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 0.15em;
-      padding: 10px 15px;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: all 0.1s linear;
+    .red{
+      background: red;
+    }
+    #exec-bio.alert{
+      background: red;
+    }
+    .bio-box {
+      width: 75%;
+    }
+    .bio-box {
+      width: 50%;
+    }
+    .bio-box a {
+      color: green;
+    }
+    .alert {
+      background: red;
+    }
+    body div#exec-bio.bio-box a {
+      color: orange;
     }
   </style>
 </head>
@@ -66,16 +70,16 @@
   </ul>
 
   <h2>I'm an h2</h2>
-    <div id="exec-bio" class="bio-box bk1">
+    <div id="exec-bio" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
     <div class="bio-box bk1">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box bk1">
+    <div class="bio-box alert">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box bk1">
+    <div class="bio-box red">
       <a href="http://example.com/">I'm a link</a>
     </div>
 </body>
